@@ -1,0 +1,15 @@
+{
+	"parent":"item/generated",
+
+	"textures":
+	{
+		"layer0":"item/name_tag"
+	},
+
+	"overrides":
+	[
+		
+		{ "predicate": { "custom_model_data": 16   },"model":  "itemy:smlouva" },
+	    { "predicate": { "custom_model_data": 32   },"model":  "itemy:stavebni_smlouva" }
+	]
+}

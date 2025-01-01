@@ -1,0 +1,26 @@
+{
+    "sources": [
+        {"type": "directory", "source": "minecraft",  "prefix": "minecraft/"},
+        {"type": "directory", "source": "bedny",      "prefix": "bedny/"},
+        {"type": "directory", "source": "cepice",     "prefix": "cepice/"},
+        {"type": "directory", "source": "deskovky",   "prefix": "deskovky/"},
+        {"type": "directory", "source": "halloween",  "prefix": "halloween/"},
+        {"type": "directory", "source": "itemy",      "prefix": "itemy/"},
+        {"type": "directory", "source": "jidlo",      "prefix": "jidlo/"},
+        {"type": "directory", "source": "klenoty",    "prefix": "klenoty/"},
+        {"type": "directory", "source": "ksiltovky",  "prefix": "ksiltovky/"},
+        {"type": "directory", "source": "matus-set",  "prefix": "matus-set/"},
+        {"type": "directory", "source": "ozdoby",     "prefix": "ozdoby/"},
+        {"type": "directory", "source": "postavicky", "prefix": "postavicky/"},
+        {"type": "directory", "source": "siscu_se",   "prefix": "siscu_se/"},
+        {"type": "directory", "source": "songy",      "prefix": "songy/"},
+		
+		{"type": "directory","source": "block","prefix": "block/"},
+        {"type": "directory","source": "item","prefix": "item/"},
+        {"type": "directory","source": "entity","prefix": "entity/"},
+        {"type": "directory","source": "models","prefix": "models/"},
+        {"type": "directory","source": "painting","prefix": "painting/"},
+        {"type": "single","resource": "entity/bell/bell_body"},
+        {"type": "single","resource": "entity/enchanting_table_book"}
+    ]
+}

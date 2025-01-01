@@ -1,0 +1,19 @@
+{
+	"parent":"item/handheld",
+
+	"textures":
+	{
+		"layer0":"item/diamond_sword"
+	},
+
+	"overrides":
+	[
+		{
+		    	"predicate":
+			{
+			"custom_model_data":4
+			},
+				"model": "itemy:sroubovak_kriz"
+		}
+	]
+}

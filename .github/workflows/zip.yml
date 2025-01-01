@@ -1,0 +1,87 @@
+name: Create and Upload Release ZIP
+
+on:
+  push:
+    branches:
+      - main  # Trigger workflow when a commit is pushed to the main branch
+
+jobs:
+  create-zip-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Extract version from pack.mcmeta
+      id: extract_version
+      run: |
+        # Read the version from pack.mcmeta
+        description=$(cat pack.mcmeta)
+        
+        # Use regex to extract the version number (e.g., 'V 6.0.1' -> 6.0.1)
+        version=$(echo "$description" | grep -oP 'V \d+\.\d+\.\d+' | awk '{print $2}')
+        
+        # Validate version extraction
+        if [ -z "$version" ]; then
+          echo "Error: Version could not be extracted from pack.mcmeta."
+          exit 1
+        fi
+        
+        # Save the version for use in later steps
+        echo "VERSION=$version" >> $GITHUB_ENV
+        echo "Extracted version: $version"
+
+    - name: Debug version
+      run: |
+        echo "Version is: ${{ env.VERSION }}"  # Ensure the 'VERSION' environment variable is available
+
+    - name: Set Git identity
+      run: |
+        # Use the GitHub actor (username) for the Git identity
+        git config --global user.name "${{ github.actor }}"
+        
+        # Use the email associated with the GitHub actor
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+    - name: Create Tag
+      run: |
+        git tag -a "v${{ env.VERSION }}" -m "Release v${{ env.VERSION }}"
+        git push origin "v${{ env.VERSION }}"
+
+    - name: Create ZIP file
+      run: |
+        # Exclude GitHub-specific files and directories
+        zip -r release-${{ env.VERSION }}.zip . -x '*.git*' '*.github*'
+
+    - name: Calculate SHA1 hash of ZIP file
+      id: calculate_sha1
+      run: |
+        sha1sum release-${{ env.VERSION }}.zip | awk '{print $1}' > sha1.txt
+        sha1=$(cat sha1.txt)
+        echo "SHA1 hash: $sha1"
+        echo "sha1=$sha1" >> $GITHUB_ENV
+
+    - name: Create a Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ env.VERSION }}  # Use the version extracted earlier as the tag name
+        release_name: Release ${{ env.VERSION }}
+        draft: false
+        prerelease: false
+        body: |
+          Release v${{ env.VERSION }}
+          SHA1: ${{ env.sha1 }}
+
+    - name: Upload ZIP to Release
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./release-${{ env.VERSION }}.zip
+        asset_name: release-${{ env.VERSION }}.zip
+        asset_content_type: application/zip

@@ -1,0 +1,13 @@
+{
+	"parent":"item/handheld",
+
+	"textures":
+	{
+		"layer0":"item/netherite_shovel"
+	},
+
+	"overrides":
+	[
+		{ "predicate": { "custom_model_data":100   },"model":  "matus-set:matkulllopata" }
+	]
+}

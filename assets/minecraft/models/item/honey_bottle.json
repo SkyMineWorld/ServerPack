@@ -1,0 +1,15 @@
+{
+	"parent":"item/generated",
+	"textures":{
+		"layer0":"item/honey_bottle"
+	},
+
+	"overrides":
+	[
+	
+	{ "predicate": { "custom_model_data": 1   },"model":  "jidlo:blacktea" },
+	{ "predicate": { "custom_model_data": 2   },"model":  "jidlo:greentea" },
+	{ "predicate": { "custom_model_data": 3   },"model":  "jidlo:late" },
+	{ "predicate": { "custom_model_data": 4   },"model":  "jidlo:esspreso" }
+	]
+}

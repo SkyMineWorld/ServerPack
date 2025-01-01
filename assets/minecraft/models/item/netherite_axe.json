@@ -1,0 +1,14 @@
+{
+	"parent":"item/handheld",
+
+	"textures":
+	{
+		"layer0":"item/netherite_axe"
+	},
+
+	"overrides":
+	[
+		{ "predicate": { "custom_model_data":99   },"model":  "itemy:banhammer" },
+		{ "predicate": { "custom_model_data":100   },"model":  "matus-set:matkullsekera" }
+	]
+}

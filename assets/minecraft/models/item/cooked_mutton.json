@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cooked_mutton"
+  },
+  
+	"overrides":[{"predicate":{"custom_model_data":1},"model": "jidlo:pizza"},
+				 {"predicate":{"custom_model_data":2},"model": "jidlo:margarita"},
+				 {"predicate":{"custom_model_data":3},"model": "jidlo:prosutocutto"},
+				 {"predicate":{"custom_model_data":4},"model": "jidlo:quatroformagi"},
+				 {"predicate":{"custom_model_data":5},"model": "jidlo:salami"}
+	]
+}
