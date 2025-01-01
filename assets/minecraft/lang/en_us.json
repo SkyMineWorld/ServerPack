@@ -6,5 +6,11 @@
 	"item.minecraft.cod": "Cod",
 	"item.minecraft.salmon": "Salmon",
 	"effect.minecraft.unluck": "Phage",
-	"potion.potency.99": "(Strong)"
+	"potion.potency.99": "(Strong)",
+	"menu.game": "ა",
+    "menu.returnToGame": "\u00A7aBack to SkyMine!",
+    "menu.disconnect": "ბ",
+    "multiplayer.unsecureserver.toast.title": " .",
+    "multiplayer.unsecureserver.toast": " .",
+    "menu.returnToMenu": "ბ"
 }
