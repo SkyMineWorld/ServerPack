@@ -7,8 +7,9 @@
 	"elements": [
 		{
 			"name": "headwear",
-			"from": [2.5, 19.525, 3.5],
-			"to": [11.5, 30.525, 12.5],
+			"from": [2.5, 20.525, 3.5],
+			"to": [11.5, 31.525, 12.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
 			"faces": {
 				"north": {"uv": [10, 2, 12, 4.5], "texture": "#0"},
 				"east": {"uv": [8, 2, 10, 4.5], "texture": "#0"},

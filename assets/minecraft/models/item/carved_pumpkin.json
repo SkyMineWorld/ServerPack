@@ -40,6 +40,10 @@
 	{ "predicate": { "custom_model_data": 30  },"model":  "ksiltovky:sm-dozadu/ksil_sm_d_purple" },
 	{ "predicate": { "custom_model_data": 31  },"model":  "ksiltovky:sm-dozadu/ksil_sm_d_magenta" },
 	{ "predicate": { "custom_model_data": 32  },"model":  "ksiltovky:sm-dozadu/ksil_sm_d_pink" },
+	{ "predicate": { "custom_model_data": 33  },"model":  "bedny:bedna-zelena" },
+	{ "predicate": { "custom_model_data": 34  },"model":  "bedny:bedna-zluta" },
+	{ "predicate": { "custom_model_data": 35  },"model":  "bedny:bedna-modra" },
+	{ "predicate": { "custom_model_data": 36  },"model":  "bedny:bedna-hneda" },
 	{ "predicate": { "custom_model_data": 65  },"model":  "deskovky:kral-bila" },
 	{ "predicate": { "custom_model_data": 66  },"model":  "deskovky:kral-cerna" },
 	{ "predicate": { "custom_model_data": 67  },"model":  "deskovky:kralovna-bila" },
@@ -149,7 +153,6 @@
 	{ "predicate": { "custom_model_data": 173 },"model":  "ozdoby:ozdoba_kulata_ruzova" },
 	{ "predicate": { "custom_model_data": 174 },"model":  "ozdoby:ozdoba_kulata_fialova" },
 	{ "predicate": { "custom_model_data": 175 },"model":  "ozdoby:stromek" },
-	{ "predicate": { "custom_model_data": 176 },"model":  "matus-set:matkullhelma" },
-	{ "predicate": { "custom_model_data": 177 },"model":  "bedny:bedna" }
+	{ "predicate": { "custom_model_data": 176 },"model":  "matus-set:matkullhelma" }
 	]
 }

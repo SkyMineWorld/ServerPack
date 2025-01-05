@@ -13,7 +13,6 @@
         {"type": "directory", "source": "ozdoby",     "prefix": "ozdoby/"},
         {"type": "directory", "source": "postavicky", "prefix": "postavicky/"},
         {"type": "directory", "source": "siscu_se",   "prefix": "siscu_se/"},
-        {"type": "directory", "source": "songy",      "prefix": "songy/"},
 		
 		{"type": "directory","source": "block","prefix": "block/"},
         {"type": "directory","source": "item","prefix": "item/"},
