@@ -1,5 +1,12 @@
 {
-    
+    "block.minecraft.jigsaw": "Kouzelníkova příručka",
+	"item.minecraft.cooked_cod": "Vařená ryba",
+	"item.minecraft.cooked_salmon": "Vařená ryba",
+	"item.minecraft.pufferfish": "Ježík",
+	"item.minecraft.cod": "Treska",
+	"item.minecraft.salmon": "Losos",
+    "effect.minecraft.unluck": "Fág",
+    "potion.potency.99": "(Silný)",
     "menu.game": "ა",
     "menu.returnToGame": "\u00A7aZpět na SkyMine!",
     "menu.disconnect": "დ",

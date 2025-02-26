@@ -1,5 +1,12 @@
 {
-   
+    "block.minecraft.jigsaw": "Das Handbuch des Magiers",
+    "item.minecraft.cooked_cod": "Gekochter Fisch",
+	"item.minecraft.cooked_salmon": "Gekochter Fisch",
+	"item.minecraft.pufferfish": "Kugelfisch",
+	"item.minecraft.cod": "Dorsch",
+	"item.minecraft.salmon": "Lachs",
+	"effect.minecraft.unluck": "Phage",
+    "potion.potency.99": "(Stark)",
     "menu.game": "ა",
     "menu.returnToGame": "\u00A7aZurück zum SkyMine!",
     "menu.disconnect": "გ",
