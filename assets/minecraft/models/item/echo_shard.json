@@ -8,47 +8,13 @@
 
 	"overrides":
 	[
-		{
-		    	"predicate":
-			{
-			"custom_model_data":5
-			},
-				"model": "klenoty:klic"
-		},
-		{
-		    	"predicate":
-			{
-			"custom_model_data":10
-			},
-				"model": "itemy:gold_farma_klic"
-		},
-		{
-		    	"predicate":
-			{
-			"custom_model_data":1
-			},
-				"model": "bedny:klic_hnedy_bedna"
-		},
-		{
-		    	"predicate":
-			{
-			"custom_model_data":2
-			},
-				"model": "bedny:klic_modra_bedna"
-		},
-		{
-		    	"predicate":
-			{
-			"custom_model_data":3
-			},
-				"model": "bedny:klic_zeleny_bedna"
-		},
-		{
-		    	"predicate":
-			{
-			"custom_model_data":4
-			},
-				"model": "bedny:klic_zluty_bedna"
-		}
+		{"predicate":{"custom_model_data":1 },"model": "bedny:klic-hnedy"},
+		{"predicate":{"custom_model_data":2 },"model": "bedny:klic-modry"},
+		{"predicate":{"custom_model_data":3 },"model": "bedny:klic-zeleny"},
+		{"predicate":{"custom_model_data":4 },"model": "bedny:klic-zluty"},
+		{"predicate":{"custom_model_data":5 },"model": "klenoty:klic"},
+		{"predicate":{"custom_model_data":10},"model": "itemy:gold_farma_klic"}
+		
+	
 	]
 }
