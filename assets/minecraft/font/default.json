@@ -33,7 +33,10 @@
       {"type": "bitmap","file": "minecraft:ikony/neat.png" 			  	  ,"height": 9   ,"ascent": 9 ,"chars": ["ძ"]},
       {"type": "bitmap","file": "minecraft:ikony/atfialovy.png"		 	  ,"height": 9   ,"ascent": 9 ,"chars": ["ç"]},
       {"type": "bitmap","file": "minecraft:ikony/atmodry.png"			  ,"height": 9   ,"ascent": 9 ,"chars": ["ჭ"]},
-      {"type": "bitmap","file": "minecraft:ikony/discord.png"			  ,"height": 9   ,"ascent": 8 ,"chars": ["ხ"]}
+      {"type": "bitmap","file": "minecraft:ikony/discord.png"			  ,"height": 9   ,"ascent": 8 ,"chars": ["ხ"]},
+      {"type": "bitmap","file": "minecraft:ikony/baron.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჯ"]},
+      {"type": "bitmap","file": "minecraft:ikony/hrabe.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["წ"]},
+      {"type": "bitmap","file": "minecraft:ikony/knize.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჰ"]}
 
   ]
 }
