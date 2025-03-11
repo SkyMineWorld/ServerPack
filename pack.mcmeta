@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 34,
 		"supported_formats": [9, 34],
-        "description": "\u00a76 KONEČNĚ jsme na githubu!\n\u00a74 1.19.2+ \u00a72 V 6.7.11"
+        "description": "\u00a76 KONEČNĚ jsme na githubu!\n\u00a74 1.19.2+ \u00a72 V 6.7.12"
     },
 	"overlays": {
 		"entries": [
