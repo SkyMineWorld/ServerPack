@@ -1,8 +1,8 @@
 {
     "pack": {
-        "pack_format": 34,
+        "pack_format": 46,
 		"supported_formats": [9, 46],
-        "description": "\u00a76 VERZE 1.21.4 JE TUUUUU!\n\u00a74 1.19.2+ \u00a72 V 6.7.14"
+        "description": "\u00a76 VERZE 1.21.4 JE TUUUUU!\n\u00a74 1.19.2+ \u00a72 V 6.7.15"
     },
 	"overlays": {
 		"entries": [
