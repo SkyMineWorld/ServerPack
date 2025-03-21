@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 16,"model": {"type": "model","model": "itemy:smlouva"}},
+	{"threshold": 32,"model": {"type": "model","model": "itemy:stavebni_smlouva"}}
+    ],
+    "fallback": {"type": "model","model": "item/name_tag"}
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 4,"model": {"type": "model","model": "klenoty:mince_medena"}}
+    ],
+    "fallback": {"type": "model","model": "item/copper_ingot"}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 1,"model": {"type": "model","model": "jidlo:blacktea"}},
+	{"threshold": 2,"model": {"type": "model","model": "jidlo:greentea"}},
+	{"threshold": 3,"model": {"type": "model","model": "jidlo:late"}},
+	{"threshold": 4,"model": {"type": "model","model": "jidlo:esspreso"}}
+    ],
+    "fallback": {"type": "model","model": "item/honey_bottle"}
+  }
+}

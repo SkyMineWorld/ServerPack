@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 4,"model": {"type": "model","model": "itemy:sroubovak_kriz"}}
+    ],
+    "fallback": {"type": "model","model": "item/diamond_sword"}
+  }
+}

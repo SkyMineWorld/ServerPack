@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 4,"model": {"type": "model","model": "itemy:sroubovak_plochej"}}
+    ],
+    "fallback": {"type": "model","model": "item/stick"}
+  }
+}

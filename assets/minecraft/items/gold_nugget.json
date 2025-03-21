@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 5,"model": {"type": "model","model": "klenoty:mince_zlata"}}
+    ],
+    "fallback": {"type": "model","model": "item/gold_nugget"}
+  }
+}

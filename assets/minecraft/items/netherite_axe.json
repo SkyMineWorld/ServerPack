@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 99,"model": {"type": "model","model": "itemy:banhammer"}},
+	{"threshold": 100,"model": {"type": "model","model": "matus-set:matkullsekera"}}
+    ],
+    "fallback": {"type": "model","model": "item/netherite_axe"}
+  }
+}

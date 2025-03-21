@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 1,"model": {"type": "model","model": "songy/amerika" }},
+	{"threshold": 2,"model": {"type": "model","model": "songy/ava" }},
+	{"threshold": 3,"model": {"type": "model","model": "songy/ennemie" }},
+	{"threshold": 4,"model": {"type": "model","model": "songy/flowers" }},
+	{"threshold": 5,"model": {"type": "model","model": "songy/houby-houbicky" }},
+	{"threshold": 6,"model": {"type": "model","model": "songy/hrnec-song" }},
+	{"threshold": 7,"model": {"type": "model","model": "songy/knee-socks" }},
+	{"threshold": 8,"model": {"type": "model","model": "songy/krtek-song" }},
+	{"threshold": 9,"model": {"type": "model","model": "songy/matusova-blbost" }},
+	{"threshold": 10,"model": {"type": "model","model":"songy/snap-out" }},
+	{"threshold": 11,"model": {"type": "model","model": "songy/softcore" }},
+	{"threshold": 12,"model": {"type": "model","model": "songy/still-feel" }},
+	{"threshold": 13,"model": {"type": "model","model": "songy/sunsetz" }}
+    ],
+    "fallback": {"type": "model","model": "block/structure_block"}
+  }
+}

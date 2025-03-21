@@ -1,0 +1,10 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 100,"model": {"type": "model","model": "matus-set:matkullmec"}}
+    ],
+    "fallback": {"type": "model","model": "item/netherite_sword"}
+  }
+}

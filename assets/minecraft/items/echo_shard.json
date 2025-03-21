@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 1,"model": {"type": "model","model": "bedny:klic-hnedy"}},
+	{"threshold": 2,"model": {"type": "model","model": "bedny:klic-modry"}},
+	{"threshold": 3,"model": {"type": "model","model": "bedny:klic-zeleny"}},
+	{"threshold": 4,"model": {"type": "model","model": "bedny:klic-zluty"}},
+	{"threshold": 5,"model": {"type": "model","model": "klenoty:klic"}},
+	{"threshold": 10,"model": {"type": "model","model": "itemy:gold_farma_klic"}}
+    ],
+    "fallback": {"type": "model","model": "item/echo_shard"}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+	{"threshold": 1,"model": {"type": "model","model": "jidlo:burgir"}},
+	{"threshold": 2,"model": {"type": "model","model": "jidlo:tako"}},
+	{"threshold": 3,"model": {"type": "model","model": "jidlo:kyblik"}},
+	{"threshold": 4,"model": {"type": "model","model": "jidlo:pizza"}},
+	{"threshold": 5,"model": {"type": "model","model": "jidlo:margarita"}},
+	{"threshold": 6,"model": {"type": "model","model": "jidlo:prosutocutto"}},
+	{"threshold": 7,"model": {"type": "model","model": "jidlo:quatroformagi"}},
+	{"threshold": 8,"model": {"type": "model","model": "jidlo:salami"}},
+	{"threshold": 9,"model": {"type": "model","model": "jidlo:salat"}},
+	{"threshold": 10,"model": {"type": "model","model":"jidlo:hranolky"}},
+	{"threshold": 11,"model": {"type": "model","model":"jidlo:a"}}
+    ],
+    "fallback": {"type": "model","model": "item/bread"}
+  }
+}
+
