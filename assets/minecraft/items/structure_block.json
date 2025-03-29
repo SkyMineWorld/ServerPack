@@ -20,7 +20,7 @@
       {"when": "music_disc_snap_out",				"model": {"type": "model","model": "songy/snap-out" }},
       {"when": "music_disc_softcore",				"model": {"type": "model","model": "songy/softcore" }},
       {"when": "music_disc_still_feel",				"model": {"type": "model","model": "songy/still-feel" }},
-      {"when": "music_disc_sunsetz",				"model": {"type": "model","model": "songy/sunsetz" }}
+      {"when": "music_disc_sunsetz",				"model": {"type": "model","model": "songy/sunsetz" }},
       {"when": "mince_cocoa",						"model": {"type": "model","model": "klenoty:mince_coko"}},
       {"when": "mince_copper",						"model": {"type": "model","model": "klenoty:mince_medena"}},
       {"when": "mince_iron",						"model": {"type": "model","model": "klenoty:mince_stribrna"}},
@@ -52,7 +52,7 @@
       {"when": "pizza_salamova",					"model": {"type": "model","model": "jidlo:salami"}},
       {"when": "salat",								"model": {"type": "model","model": "jidlo:salat"}},
       {"when": "hranolky",							"model": {"type": "model","model": "jidlo:hranolky"}},
-      {"when": "a",									"model": {"type": "model","model": "jidlo:a"}}
+      {"when": "a",									"model": {"type": "model","model": "jidlo:a"}},
       {"when": "matus_sword",						"model": {"type": "model","model": "matus-set:matkullmec"}},
       {"when": "matus_shovel",						"model": {"type": "model","model": "matus-set:matkulllopata"}},
       {"when": "matus_pickaxe",						"model": {"type": "model","model": "matus-set:matkullpick"}},
