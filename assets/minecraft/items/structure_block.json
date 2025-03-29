@@ -1,22 +1,63 @@
 {
   "model": {
-    "type": "range_dispatch",
+    "type": "select",
     "property": "custom_model_data",
-    "entries": [
-	{"threshold": 1,"model": {"type": "model","model": "songy/amerika" }},
-	{"threshold": 2,"model": {"type": "model","model": "songy/ava" }},
-	{"threshold": 3,"model": {"type": "model","model": "songy/ennemie" }},
-	{"threshold": 4,"model": {"type": "model","model": "songy/flowers" }},
-	{"threshold": 5,"model": {"type": "model","model": "songy/houby-houbicky" }},
-	{"threshold": 6,"model": {"type": "model","model": "songy/hrnec-song" }},
-	{"threshold": 7,"model": {"type": "model","model": "songy/knee-socks" }},
-	{"threshold": 8,"model": {"type": "model","model": "songy/krtek-song" }},
-	{"threshold": 9,"model": {"type": "model","model": "songy/matusova-blbost" }},
-	{"threshold": 10,"model": {"type": "model","model":"songy/snap-out" }},
-	{"threshold": 11,"model": {"type": "model","model": "songy/softcore" }},
-	{"threshold": 12,"model": {"type": "model","model": "songy/still-feel" }},
-	{"threshold": 13,"model": {"type": "model","model": "songy/sunsetz" }}
-    ],
-    "fallback": {"type": "model","model": "block/structure_block"}
+    "fallback": {
+      "type": "model",
+      "model": "block/structure_block"
+    },
+    "cases": 
+	[
+      {"when": "music_disc_amerika",				"model": {"type": "model","model": "songy/amerika" }},
+      {"when": "music_disc_ava",					"model": {"type": "model","model": "songy/ava" }},
+      {"when": "music_disc_ennemie",				"model": {"type": "model","model": "songy/ennemie" }},
+      {"when": "music_disc_flowers",				"model": {"type": "model","model": "songy/flowers" }},
+      {"when": "music_disc_houbicky_houbicky",		"model": {"type": "model","model": "songy/houby-houbicky" }},
+      {"when": "music_disc_solo_na_pradelni_hrnec",	"model": {"type": "model","model": "songy/hrnec-song" }},
+      {"when": "music_disc_knee_socks",				"model": {"type": "model","model": "songy/knee-socks" }},
+      {"when": "music_disc_vyvar_z_krtka",			"model": {"type": "model","model": "songy/krtek-song" }},
+      {"when": "music_disc_matus_blbost",			"model": {"type": "model","model": "songy/matusova-blbost" }},
+      {"when": "music_disc_snap_out",				"model": {"type": "model","model": "songy/snap-out" }},
+      {"when": "music_disc_softcore",				"model": {"type": "model","model": "songy/softcore" }},
+      {"when": "music_disc_still_feel",				"model": {"type": "model","model": "songy/still-feel" }},
+      {"when": "music_disc_sunsetz",				"model": {"type": "model","model": "songy/sunsetz" }}
+      {"when": "mince_cocoa",						"model": {"type": "model","model": "klenoty:mince_coko"}},
+      {"when": "mince_copper",						"model": {"type": "model","model": "klenoty:mince_medena"}},
+      {"when": "mince_iron",						"model": {"type": "model","model": "klenoty:mince_stribrna"}},
+      {"when": "mince_gold",						"model": {"type": "model","model": "klenoty:mince_zlata"}},
+      {"when": "klic_brown",						"model": {"type": "model","model": "bedny:klic-hnedy"}},
+      {"when": "klic_blue",							"model": {"type": "model","model": "bedny:klic-modry"}},
+      {"when": "klic_green",						"model": {"type": "model","model": "bedny:klic-zeleny"}},
+      {"when": "klic_yellow",						"model": {"type": "model","model": "bedny:klic-zluty"}},
+      {"when": "klic_pokladna",						"model": {"type": "model","model": "klenoty:klic"}},
+      {"when": "klic_farma",						"model": {"type": "model","model": "itemy:gold_farma_klic"}},
+      {"when": "smlouva_uzemi",						"model": {"type": "model","model": "itemy:smlouva"}},
+      {"when": "smlouva_stavebni",					"model": {"type": "model","model": "itemy:stavebni_smlouva"}},
+      {"when": "kralovske_jablko",					"model": {"type": "model","model": "klenoty:kralovske_jablko"}},
+      {"when": "kralovske_zezlo",					"model": {"type": "model","model": "klenoty:zezlo_model"}},
+      {"when": "sroubovak_blue",					"model": {"type": "model","model": "itemy:sroubovak_plochej"}},
+      {"when": "sroubovak_red",						"model": {"type": "model","model": "itemy:sroubovak_kriz"}},
+      {"when": "vstupenka",							"model": {"type": "model","model": "klenoty:vstupenka"}},
+      {"when": "caj_black",							"model": {"type": "model","model": "jidlo:blacktea"}},
+      {"when": "caj_green",							"model": {"type": "model","model": "jidlo:greentea"}},
+      {"when": "kafe_late",							"model": {"type": "model","model": "jidlo:late"}},
+      {"when": "kafe_esspreso",						"model": {"type": "model","model": "jidlo:esspreso"}},
+      {"when": "burger",							"model": {"type": "model","model": "jidlo:burgir"}},
+      {"when": "tako",								"model": {"type": "model","model": "jidlo:tako"}},
+      {"when": "kyblik",							"model": {"type": "model","model": "jidlo:kyblik"}},
+      {"when": "pizza",								"model": {"type": "model","model": "jidlo:pizza"}},
+      {"when": "pizza_margarita",					"model": {"type": "model","model": "jidlo:margarita"}},
+      {"when": "pizza_sunkova",						"model": {"type": "model","model": "jidlo:prosutocutto"}},
+      {"when": "pizza_syrova",						"model": {"type": "model","model": "jidlo:quatroformagi"}},
+      {"when": "pizza_salamova",					"model": {"type": "model","model": "jidlo:salami"}},
+      {"when": "salat",								"model": {"type": "model","model": "jidlo:salat"}},
+      {"when": "hranolky",							"model": {"type": "model","model": "jidlo:hranolky"}},
+      {"when": "a",									"model": {"type": "model","model": "jidlo:a"}}
+      {"when": "matus_sword",						"model": {"type": "model","model": "matus-set:matkullmec"}},
+      {"when": "matus_shovel",						"model": {"type": "model","model": "matus-set:matkulllopata"}},
+      {"when": "matus_pickaxe",						"model": {"type": "model","model": "matus-set:matkullpick"}},
+      {"when": "matus_axe",							"model": {"type": "model","model": "matus-set:matkullsekera"}},
+      {"when": "banhammer",							"model": {"type": "model","model": "itemy:banhammer"}}
+	]
   }
 }
