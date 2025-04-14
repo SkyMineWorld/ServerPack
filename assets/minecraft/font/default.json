@@ -37,7 +37,9 @@
       {"type": "bitmap","file": "minecraft:ikony/baron.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჯ"]},
       {"type": "bitmap","file": "minecraft:ikony/hrabe.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["წ"]},
       {"type": "bitmap","file": "minecraft:ikony/knize.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჰ"]},
-      {"type": "bitmap","file": "minecraft:ikony/mena.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჵ"]}
+      {"type": "bitmap","file": "minecraft:ikony/mena.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჵ"]},
+      {"type": "bitmap","file": "minecraft:ikony/mapa.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჶ"]}
+
 
   ]
 }

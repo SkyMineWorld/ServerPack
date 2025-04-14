@@ -13,6 +13,7 @@
         {"type": "directory", "source": "ozdoby",     "prefix": "ozdoby/"},
         {"type": "directory", "source": "postavicky", "prefix": "postavicky/"},
         {"type": "directory", "source": "siscu_se",   "prefix": "siscu_se/"},
+        {"type": "directory", "source": "velikonoce",   "prefix": "velikonoce/"},
 		
         {"type": "single","resource": "entity/copper_trident"},
         {"type": "single","resource": "entity/horse/horse_skeleton"},
