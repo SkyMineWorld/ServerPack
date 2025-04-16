@@ -163,8 +163,9 @@
 							  
 	  {"when":"kuzel",					"model":{"type": "model","model": "itemy:kuzel"}},
 							  
-	  {"when":"matus_helma",			"model":{"type": "model","model": "matus-set:matkullhelma" }}
-	  
+	  {"when":"matus_helma",			"model":{"type": "model","model": "matus-set:matkullhelma" }},
+
+	  {"when": "kralici_usi",							"model": {"type": "model","model": "velikonoce:usi"}}
 	  
     ]
   }

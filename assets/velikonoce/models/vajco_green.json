@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"3": "block/zeleno_zlute",
-		"particle": "block/texture"
+		"3": "velikonoce:item/zeleno_zlute",
+		"particle": "velikonoce:item/texture"
 	},
 	"elements": [
 		{

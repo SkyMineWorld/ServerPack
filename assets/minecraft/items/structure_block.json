@@ -61,8 +61,7 @@
       {"when": "pomlazka",							"model": {"type": "model","model": "velikonoce:pomlazka"}},
       {"when": "vajicko_blue",						"model": {"type": "model","model": "velikonoce:vajco_blue"}},
       {"when": "vajicko_green",							"model": {"type": "model","model": "velikonoce:vajco_green"}},
-      {"when": "vajicko_pink",							"model": {"type": "model","model": "velikonoce:vajco_pink"}},
-      {"when": "kralici_usi",							"model": {"type": "model","model": "velikonoce:usi"}}
+      {"when": "vajicko_pink",							"model": {"type": "model","model": "velikonoce:vajco_pink"}}
 	]
   }
 }
