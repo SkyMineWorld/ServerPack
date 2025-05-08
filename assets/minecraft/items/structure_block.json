@@ -60,8 +60,10 @@
       {"when": "banhammer",							"model": {"type": "model","model": "itemy:banhammer"}},
       {"when": "pomlazka",							"model": {"type": "model","model": "velikonoce:pomlazka"}},
       {"when": "vajicko_blue",						"model": {"type": "model","model": "velikonoce:vajco_blue"}},
-      {"when": "vajicko_green",							"model": {"type": "model","model": "velikonoce:vajco_green"}},
-      {"when": "vajicko_pink",							"model": {"type": "model","model": "velikonoce:vajco_pink"}}
+      {"when": "vajicko_green",						"model": {"type": "model","model": "velikonoce:vajco_green"}},
+      {"when": "vajicko_pink",						"model": {"type": "model","model": "velikonoce:vajco_pink"}},
+      {"when": "kriz",								"model": {"type": "model","model": "klenoty:krizek"}},
+      {"when": "nic",								"model": {"type": "model","model": "item/nic"}}
 	]
   }
 }
