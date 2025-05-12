@@ -12,7 +12,7 @@
       {"when": "music_disc_ava",					"model": {"type": "model","model": "songy/ava" }},
       {"when": "music_disc_ennemie",				"model": {"type": "model","model": "songy/ennemie" }},
       {"when": "music_disc_flowers",				"model": {"type": "model","model": "songy/flowers" }},
-      {"when": "music_disc_houbicky_houbicky",		"model": {"type": "model","model": "songy/houby-houbicky" }},
+      {"when": "music_disc_houbicky",				"model": {"type": "model","model": "songy/houbicky" }},
       {"when": "music_disc_solo_na_pradelni_hrnec",	"model": {"type": "model","model": "songy/hrnec-song" }},
       {"when": "music_disc_knee_socks",				"model": {"type": "model","model": "songy/knee-socks" }},
       {"when": "music_disc_vyvar_z_krtka",			"model": {"type": "model","model": "songy/krtek-song" }},

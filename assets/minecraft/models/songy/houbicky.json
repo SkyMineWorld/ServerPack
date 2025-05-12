@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "item/houby-houbicky"
+    "layer0": "item/houbicky"
   }
 }

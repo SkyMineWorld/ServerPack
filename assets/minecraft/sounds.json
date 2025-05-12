@@ -10,7 +10,7 @@
   "snap-out": 			 		{"category": "record" , "sounds": ["records/snap-out" 			], "subtitle":"Hraje absolutní bengr"},
   "softcore": 					{"category": "record" , "sounds": ["records/softcore" 			], "subtitle":"Hraje absolutní bengr"},
   "still-feel":  				{"category": "record" , "sounds": ["records/still-feel" 		], "subtitle":"Hraje absolutní bengr"},
-  "houby-houbicky":          	{"category": "record" , "sounds": ["records/houby-houbicky" 	], "subtitle":"Hraje absolutní bengr"},
+  "houbicky":          	        {"category": "record" , "sounds": ["records/houbicky" 			], "subtitle":"Hraje absolutní bengr"},
   "ennemie":          			{"category": "record" , "sounds": ["records/ennemie" 	      	], "subtitle":"Hraje absolutní bengr"},
   
   
