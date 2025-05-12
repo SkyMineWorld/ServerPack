@@ -85,6 +85,7 @@
 	  {"when":"guardian_anim",			"model":{"type": "model","model": "postavicky:anim-guardian"}},
 	  {"when":"dragon",					"model":{"type": "model","model": "postavicky:dracek"}},
 	  {"when":"dragon_fly",				"model":{"type": "model","model": "postavicky:dracek_leta"}},
+	  {"when":"dragon_fly_anim",		"model":{"type": "model","model": "postavicky:dracek_letajici_anim"}},
 	  {"when":"fox_orange",				"model":{"type": "model","model": "postavicky:liska"}},
 	  {"when":"fox_white",				"model":{"type": "model","model": "postavicky:liska_snezna"}},
 	  {"when":"fox_orange_sleep",		"model":{"type": "model","model": "postavicky:liska_spinka"}},
