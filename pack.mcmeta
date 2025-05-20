@@ -1,14 +1,14 @@
 {
     "pack": {
         "pack_format": 46,
-		"supported_formats": [46, 46],
-        "description": "\u00a76 drak \n\u00a74 1.21.4+ \u00a72 V 7.2.6"
+		"supported_formats": [46, 10000],
+        "description": "\u00a76 GUI \n\u00a74 1.21.4+ \u00a72 V 7.2.7"
     },
 	"overlays": {
 		"entries": [
 			{
 				"directory": "gui",
-				"formats": [46,46]
+				"formats": [46,10000]
 
 			}
 		]
