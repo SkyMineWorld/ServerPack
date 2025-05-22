@@ -65,6 +65,8 @@
 	  
 	  {"when":"ghast",					"model":{"type": "model","model":  "postavicky:ghast"}},
 	  {"when":"ghast_angry",			"model":{"type": "model","model": "postavicky:ghast-strili"}},
+	  {"when":"ghast_happy",			"model":{"type": "model","model":  "postavicky:ghast_happy"}},
+	  {"when":"ghastling",				"model":{"type": "model","model":  "postavicky:ghastling"}},
 	  {"when":"pufferfish",				"model":{"type": "model","model": "postavicky:pafrfish"}},
 	  {"when":"pufferfish_koruna",		"model":{"type": "model","model": "postavicky:kralovskaryba"}},
 	  {"when":"creeper",				"model":{"type": "model","model": "postavicky:creeper"}},
