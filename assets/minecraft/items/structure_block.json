@@ -37,7 +37,7 @@
       {"when": "kralovske_zezlo",					"model": {"type": "model","model": "klenoty:zezlo_model"}},
       {"when": "sroubovak_blue",					"model": {"type": "model","model": "itemy:sroubovak_plochej"}},
       {"when": "sroubovak_red",						"model": {"type": "model","model": "itemy:sroubovak_kriz"}},
-      {"when": "sroubovak_red",						"model": {"type": "model","model": "itemy:kupon"}},
+      {"when": "kupon",						"model": {"type": "model","model": "itemy:kupon"}},
       {"when": "vstupenka",							"model": {"type": "model","model": "klenoty:vstupenka"}},
       {"when": "caj_black",							"model": {"type": "model","model": "jidlo:blacktea"}},
       {"when": "caj_green",							"model": {"type": "model","model": "jidlo:greentea"}},
