@@ -2,11 +2,11 @@
     "pack": {
         "pack_format": 46,
 		"supported_formats": [46, 10000],
-        "description": "\u00a76 oprava 1.21.5 \n\u00a74 1.21.4+ \u00a72 V 7.3.3"
+        "description": "\u00a76 oprava 1.21.5 \n\u00a74 1.21.4+ \u00a72 V 7.3.4"
     },
 	"overlays": {
 		"entries": [
-			{
+			{ 
 				"directory": "gui",
 				"formats": [46,10000]
 
