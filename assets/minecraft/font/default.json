@@ -39,7 +39,22 @@
       {"type": "bitmap","file": "minecraft:ikony/knize.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჰ"]},
       {"type": "bitmap","file": "minecraft:ikony/mena.png"				  ,"height": 9   ,"ascent": 8 ,"chars": ["ჵ"]},
       {"type": "bitmap","file": "minecraft:ikony/mapa.png"				  ,"height": 222 ,"ascent": 13 ,"chars": ["ჶ"]},
-      {"type": "bitmap", "file": "minecraft:ikony/pixel.png"         ,"height": -3  ,"ascent": -2000,"chars": ["七"]}
+      {"type": "bitmap", "file": "minecraft:ikony/pixel.png"         	  ,"height": -3  ,"ascent": -2000,"chars": ["七"]},
+      {"type": "bitmap","file": "minecraft:font/palecnahoru.png"  		  ,"height":9 	 ,"ascent": 8,"chars": ["👍"]},
+      {"type": "bitmap","file": "minecraft:font/palecdolu.png"	  		  ,"height":9 	 ,"ascent": 8,"chars": ["👎"]},
+      {"type": "bitmap","file": "minecraft:font/ok.png"		  	  		  ,"height":9 	 ,"ascent": 8,"chars": ["👌"]},
+      {"type": "bitmap","file": "minecraft:font/happy.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😀"]},
+      {"type": "bitmap","file": "minecraft:font/megahappy.png"	  		  ,"height":9 	 ,"ascent": 8,"chars": ["😄"]},
+      {"type": "bitmap","file": "minecraft:font/smile.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["🙂"]},
+      {"type": "bitmap","file": "minecraft:font/wink.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😉"]},
+      {"type": "bitmap","file": "minecraft:font/nervous.png"	  		  ,"height":9 	 ,"ascent": 8,"chars": ["😅"]},
+      {"type": "bitmap","file": "minecraft:font/lmao.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😂"]},
+      {"type": "bitmap","file": "minecraft:font/jazyk.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😛"]},
+      {"type": "bitmap","file": "minecraft:font/brekot.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😭"]},
+      {"type": "bitmap","file": "minecraft:font/plead.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["🥺"]},
+      {"type": "bitmap","file": "minecraft:font/smirk.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😏"]},
+      {"type": "bitmap","file": "minecraft:font/skull.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["💀"]},
+      {"type": "bitmap","file": "minecraft:font/scared.png"		  		  ,"height":9 	 ,"ascent": 8,"chars": ["😦"]}
 
 
   ]
