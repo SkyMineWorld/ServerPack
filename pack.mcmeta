@@ -2,7 +2,7 @@
     "pack": {
         "pack_format": 46,
 		"supported_formats": [46, 10000],
-        "description": "\u00a76 Happy ghasti jsou tuuu! \n\u00a74 1.21.4+ \u00a72 V 7.4.1"
+        "description": "\u00a76 Happy ghasti jsou tuuu! \n\u00a74 1.21.4+ \u00a72 V 7.4.2"
     },
 	"overlays": {
 		"entries": [
