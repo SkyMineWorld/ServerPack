@@ -65,7 +65,16 @@
       {"when": "vajicko_green",						"model": {"type": "model","model": "velikonoce:vajco_green"}},
       {"when": "vajicko_pink",						"model": {"type": "model","model": "velikonoce:vajco_pink"}},
       {"when": "kriz",								"model": {"type": "model","model": "klenoty:krizek"}},
-      {"when": "nic",								"model": {"type": "model","model": "item/nic"}}
+      {"when": "nic",								"model": {"type": "model","model": "item/nic"}},
+      {"when": "mapa1",								"model": {"type": "model","model": "item/mapa1" }},
+      {"when": "mapa2",								"model": {"type": "model","model": "item/mapa2" }},
+      {"when": "mapa3",								"model": {"type": "model","model": "item/mapa3" }},
+      {"when": "mapa4",								"model": {"type": "model","model": "item/mapa4" }},
+      {"when": "mapa5",								"model": {"type": "model","model": "item/mapa5" }},
+      {"when": "mapa6",								"model": {"type": "model","model": "item/mapa6" }},
+      {"when": "mapa7",								"model": {"type": "model","model": "item/mapa7" }},
+      {"when": "mapa8",								"model": {"type": "model","model": "item/mapa8" }},
+      {"when": "mapa9",								"model": {"type": "model","model": "item/mapa9" }}
 	]
   }
 }

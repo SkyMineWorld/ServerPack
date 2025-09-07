@@ -1,0 +1,43 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [8, 8],
+	"textures": {
+		"5": "item/mapa5",
+		"particle": "item/mapa1"
+	},
+	"elements": [
+		{
+			"name": "mapa1_0",
+			"from": [1.34187, 0, 0],
+			"to": [17.34187, 16, 0.1],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"east": {"uv": [14.64789, 14.98565, 16, 16], "texture": "#5"},
+				"south": {"uv": [1.93733, 0.05742, 15.25359, 0.63158], "texture": "#5"},
+				"west": {"uv": [1.34187, 0.88038, 3.62962, 0], "texture": "#5"},
+				"up": {"uv": [1.78206, 0, 15.09832, 0.84756], "texture": "#5"},
+				"down": {"uv": [1.34187, 15.98976, 14.65813, 15.30622], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-2.5, 6.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 180, 0],
+			"translation": [1.25, 0, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "mapa1",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
