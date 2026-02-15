@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/mace"
+    },
+    "cases": 
+	[
+      {"when": "banhammer", "model": {"type": "model","model": "itemy:banhammer"}}
+	]
+  }
+}

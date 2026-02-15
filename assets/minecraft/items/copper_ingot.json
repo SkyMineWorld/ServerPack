@@ -3,8 +3,18 @@
     "type": "range_dispatch",
     "property": "custom_model_data",
     "entries": [
-	{"threshold": 4,"model": {"type": "model","model": "klenoty:mince_medena"}}
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "klenoty:medak"
+        }
+      }
     ],
-    "fallback": {"type": "model","model": "item/copper_ingot"}
+    "fallback": {
+      "type": "model",
+      "model": "item/copper_ingot"
+    }
   }
 }
+

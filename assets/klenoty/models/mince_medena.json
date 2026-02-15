@@ -1,8 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"1": "klenoty:item/mince_medena"
+		"1": "klenoty:item/mince_medena",
+		"particle": "klenoty:item/mince_medena"
 	},
 	"elements": [
 		{
@@ -1819,29 +1821,29 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-135, 180, 180],
+			"rotation": [-135, -180, -180],
 			"translation": [0, 1.25, 0],
 			"scale": [0.08, 0.08, 0.1]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-135, 180, 180],
+			"rotation": [-135, -180, -180],
 			"translation": [0, 1.25, 0],
 			"scale": [0.08, 0.08, 0.1]
 		},
 		"firstperson_righthand": {
-			"rotation": [180, 16, 180],
+			"rotation": [-180, 16, -180],
 			"scale": [0.15, 0.15, 0.15]
 		},
 		"firstperson_lefthand": {
-			"rotation": [180, 16, 180],
+			"rotation": [-180, 16, -180],
 			"scale": [0.15, 0.15, 0.15]
 		},
 		"ground": {
-			"rotation": [180, 5, 180],
+			"rotation": [-180, 5, -180],
 			"scale": [0.1, 0.1, 0.1]
 		},
 		"gui": {
-			"rotation": [180, 0, 180],
+			"rotation": [-180, 0, -180],
 			"translation": [0, -1.5, -0.75],
 			"scale": [0.26, 0.26, 0.26]
 		},
@@ -1851,7 +1853,7 @@
 			"scale": [0.4, 0.4, 0.1]
 		},
 		"fixed": {
-			"rotation": [180, 180, 180],
+			"rotation": [-180, -180, -180],
 			"translation": [0, -1.75, -0.75],
 			"scale": [0.26, 0.26, 0.26]
 		}

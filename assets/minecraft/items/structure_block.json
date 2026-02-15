@@ -23,7 +23,7 @@
       {"when": "music_disc_sunsetz",				"model": {"type": "model","model": "songy/sunsetz" }},
       {"when": "music_disc_cigarety",				"model": {"type": "model","model": "songy/cigarety" }},
       {"when": "mince_cocoa",						"model": {"type": "model","model": "klenoty:mince_coko"}},
-      {"when": "mince_copper",						"model": {"type": "model","model": "klenoty:mince_medena"}},
+      {"when": "mince_copper",						"model": {"type": "model","model": "klenoty:medak"}},
       {"when": "mince_iron",						"model": {"type": "model","model": "klenoty:mince_stribrna"}},
       {"when": "mince_gold",						"model": {"type": "model","model": "klenoty:mince_zlata"}},
       {"when": "klic_brown",						"model": {"type": "model","model": "bedny:klic-hnedy"}},
