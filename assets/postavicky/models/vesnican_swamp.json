@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"5": "postavicky:item/swamp"
+		"5": "postavicky:item/swamp",
+		"particle": "postavicky:item/snehulak"
 	},
 	"elements": [
 		{

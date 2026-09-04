@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"4": "velikonoce:item/ruzovo_bily",
-		"particle": "velikonoce:item/texture"
+		"particle": "velikonoce:item/ruzovo_bily"
 	},
 	"elements": [
 		{

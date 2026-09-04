@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "itemy:item/farma_klic"
+		"1": "itemy:item/farma_klic",
+		"particle": "itemy:item/farma_klic"
 	},
 	"elements": [
 		{

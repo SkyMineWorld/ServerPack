@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"3": "velikonoce:item/zeleno_zlute",
-		"particle": "velikonoce:item/texture"
+		"particle": "velikonoce:item/zeleno_zlute"
 	},
 	"elements": [
 		{

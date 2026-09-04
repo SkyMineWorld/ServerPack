@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"6": "postavicky:item/taiga"
+		"6": "postavicky:item/taiga",
+		"particle": "postavicky:item/snehulak"
 	},
 	"elements": [
 		{

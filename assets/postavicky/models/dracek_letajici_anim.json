@@ -5,7 +5,8 @@
         48
     ], 
     "textures": {
-        "main": "postavicky:item/drak_letajici_anim"
+        "main": "postavicky:item/drak_letajici_anim",
+		"particle": "postavicky:item/snehulak"
     }, 
     "elements": [
         {

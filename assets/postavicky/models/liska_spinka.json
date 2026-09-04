@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "postavicky:item/liska_oranzova_spici"
+		"1": "postavicky:item/liska_oranzova_spici",
+		"particle": "postavicky:item/snehulak"
 	},
 	"elements": [
 		{

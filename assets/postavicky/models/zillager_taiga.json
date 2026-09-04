@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "postavicky:item/zillager_taiga"
+		"0": "postavicky:item/zillager_taiga",
+		"particle": "postavicky:item/snehulak"
 	},
 	"elements": [
 		{

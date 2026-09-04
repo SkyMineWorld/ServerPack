@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "deskovky:item/dama-cerna"
+		"1": "deskovky:item/dama-cerna",
+		"particle": "deskovky:item/dama-cerna"
 	},
 	"elements": [
 		{

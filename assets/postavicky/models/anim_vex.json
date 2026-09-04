@@ -5,7 +5,8 @@
         32
     ], 
     "textures": {
-        "main": "postavicky:item/vex1"
+        "main": "postavicky:item/vex1",
+		"particle": "postavicky:item/snehulak"
     }, 
     "elements": [
         {

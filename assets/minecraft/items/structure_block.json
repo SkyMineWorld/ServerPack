@@ -23,7 +23,8 @@
       {"when": "music_disc_sunsetz",				"model": {"type": "model","model": "songy/sunsetz" }},
       {"when": "music_disc_cigarety",				"model": {"type": "model","model": "songy/cigarety" }},
       {"when": "mince_cocoa",						"model": {"type": "model","model": "klenoty:mince_coko"}},
-      {"when": "mince_copper",						"model": {"type": "model","model": "klenoty:medak"}},
+      {"when": "mince_tam",							"model": {"type": "model","model": "klenoty:mince_tam"}},
+      {"when": "mince_copper",						"model": {"type": "model","model": "klenoty:mince_med"}},
       {"when": "mince_iron",						"model": {"type": "model","model": "klenoty:mince_stribrna"}},
       {"when": "mince_gold",						"model": {"type": "model","model": "klenoty:mince_zlata"}},
       {"when": "klic_brown",						"model": {"type": "model","model": "bedny:klic-hnedy"}},
@@ -54,7 +55,6 @@
       {"when": "pizza_salamova",					"model": {"type": "model","model": "jidlo:salami"}},
       {"when": "salat",								"model": {"type": "model","model": "jidlo:salat"}},
       {"when": "hranolky",							"model": {"type": "model","model": "jidlo:hranolky"}},
-      {"when": "a",									"model": {"type": "model","model": "jidlo:a"}},
       {"when": "matus_sword",						"model": {"type": "model","model": "matus-set:matkullmec"}},
       {"when": "matus_shovel",						"model": {"type": "model","model": "matus-set:matkulllopata"}},
       {"when": "matus_pickaxe",						"model": {"type": "model","model": "matus-set:matkullpick"}},
@@ -65,16 +65,7 @@
       {"when": "vajicko_green",						"model": {"type": "model","model": "velikonoce:vajco_green"}},
       {"when": "vajicko_pink",						"model": {"type": "model","model": "velikonoce:vajco_pink"}},
       {"when": "kriz",								"model": {"type": "model","model": "klenoty:krizek"}},
-      {"when": "nic",								"model": {"type": "model","model": "item/nic"}},
-      {"when": "mapa1",								"model": {"type": "model","model": "item/mapa1" }},
-      {"when": "mapa2",								"model": {"type": "model","model": "item/mapa2" }},
-      {"when": "mapa3",								"model": {"type": "model","model": "item/mapa3" }},
-      {"when": "mapa4",								"model": {"type": "model","model": "item/mapa4" }},
-      {"when": "mapa5",								"model": {"type": "model","model": "item/mapa5" }},
-      {"when": "mapa6",								"model": {"type": "model","model": "item/mapa6" }},
-      {"when": "mapa7",								"model": {"type": "model","model": "item/mapa7" }},
-      {"when": "mapa8",								"model": {"type": "model","model": "item/mapa8" }},
-      {"when": "mapa9",								"model": {"type": "model","model": "item/mapa9" }}
+      {"when": "nic",								"model": {"type": "model","model": "item/nic"}}
 	]
   }
 }
