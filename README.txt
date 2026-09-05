@@ -1,6 +1,6 @@
 DOKUMENTACE PRO SKYMINE RESOUCEPACK
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
 
 Struktura RP, je následující, v ASSETS jsou pojmenované složky, třídící RP na různé kategorie
 
@@ -26,8 +26,7 @@ model bude mít cestu k textuře ve formátu
 
 "<název_adresáře>:<cesta_k_textuře>"
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------------------------------------------
 
 itemy se givují následujícím způsobem
 
@@ -47,7 +46,7 @@ food={nutrition:2,saturation:1} //// nutrition jsou kusy masa, 1 = 0.5 paličky,
 max_stack_size=99 //// do kolika se budou stackovat itemy, rozshah 1 - 99
 custom_model_data={strings:["hranolky"]} //// slovo v [" "] uršuje model itemu
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 givogání zbraní:
 give @p structure_block[attribute_modifiers=[{type:attack_damage,amount:10,slot:mainhand,id:"dmg",operation:add_value},{type:attack_speed,amount:-2,slot:mainhand,id:"speed",operation:add_value}],custom_model_data={strings:["banhammer"]}]
@@ -76,7 +75,7 @@ id je naprosto random jméno, idk k čemu to je, myslim že tim jde sdílet stej
 <typ_operace> /// add_value/add_multiplied_base/add_multiplied_total může být jedna z těhlech, jedna jen přidá value, druhá násobí base value, třetí se stackuje s existujícíma effektama, jako např speed potion + třetí bude rychlejší než speed + 2.
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 givování itemu se jménem a lorem:
 
@@ -100,7 +99,7 @@ rarity=uncommon //// pokud nenastavíme barvu itemu, tak můžem použít mc def
 - rare pro modrý text jako ench knížka,
 - epic pro fialový jako command block
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 !!! POTŘEBUJE DATAPACK POKUD CHCEM CUSTOM SONGY!!!
 
