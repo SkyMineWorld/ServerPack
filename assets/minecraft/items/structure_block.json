@@ -14,7 +14,8 @@
         {"threshold": 17.0,"model": {"type": "model","model": "klenoty:mince_med"}},
         {"threshold": 18.0,"model": {"type": "model","model": "klenoty:mince_stribrna"}},
         {"threshold": 19.0,"model": {"type": "model","model": "klenoty:mince_zlata"}},
-        {"threshold": 20.0,"model": {"type": "model","model": "block/structure_block"}}
+        {"threshold": 20.0,"model": {"type": "model","model": "klenoty:mince_tam"}},
+        {"threshold": 21.0,"model": {"type": "model","model": "block/structure_block"}}
       ]
     },
     "cases": 
