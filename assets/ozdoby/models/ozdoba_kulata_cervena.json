@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [256, 256],
 	"textures": {
+		"2": "ozdoby:item/ozdoba-cervena",
 		"1": "ozdoby:item/stribrna-blbost",
-		"2": "ozdoby:item/stribrna-blbost",
-		"particle": "ozdoby:item/stribrna-blbost"
+		"particle": "ozdoby:item/ozdoba-cervena"
 	},
 	"elements": [
 		{

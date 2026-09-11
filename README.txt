@@ -28,6 +28,10 @@ model bude mít cestu k textuře ve formátu
 
 -------------------------------------------------------------------------------------------------------------------------------
 
+ikony pro role jsou 31px vysoké, font jménem ReffsPixelFont velikost 24, 4 pixely od kraje k ČERNÉMU TEXTU, černý text položit dole 1 pixel od TMAVÝHO kraje
+
+-------------------------------------------------------------------------------------------------------------------------------
+
 itemy se givují následujícím způsobem
 
 pouze samotný otexturovaný item:
@@ -111,5 +115,7 @@ givování MUSIC DISCŮ:
 jukebox_playable="minecraft:pigstep" //// pokud nemáme datapack, tak sem můžem dát vanilla hudbu, nebo dokonce i zvuky
 
 pokud máme datapack, tak v něm nastavíme délku songy, titulky atd, a tady na to referencujem přes cestu, myslim že minecraft:<custom songa>, protože tak to je nsatavený, ale not sure
+
+
 
 
