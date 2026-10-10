@@ -1,9 +1,7 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [64, 128],
 	"textures": {
-		"0": "entity/witch",
-		"particle": "entity/witch"
+		"0": "entity/witch/witch",
+		"particle": "#0"
 	},
 	"elements": [
 		{

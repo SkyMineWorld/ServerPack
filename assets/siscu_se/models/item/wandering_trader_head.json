@@ -1,9 +1,7 @@
 {
-	"credit": "Made by CiscuLog with Blockbench",
-	"texture_size": [64, 64],
 	"textures": {
-		"0": "entity/wandering_trader",
-		"particle": "entity/wandering_trader"
+		"0": "entity/wandering_trader/wandering_trader",
+		"particle": "#0"
 	},
 	"elements": [
 		{

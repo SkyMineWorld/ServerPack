@@ -41,7 +41,7 @@ give @p minecraft:<structure_block/carved_pumpkin>[minecraft:custom_model_data={
 
 givování jídla:
 
-/give @p structure_block[food={nutrition:2,saturation:1},consumable={consume_seconds:1},max_stack_size=128,custom_model_data={strings:["hranolky"]}]
+/give @p structure_block[food={nutrition:2,saturation:1},consumable={consume_seconds:1},max_stack_size=99,custom_model_data={strings:["hranolky"]}]
 
 vysvětlení komponentů:
 

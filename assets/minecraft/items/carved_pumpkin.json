@@ -156,6 +156,8 @@
 	  {"when":"koruna",					"model":{"type": "model","model": "klenoty:koruna"}},
 	  {"when":"koruna_princezna",		"model":{"type": "model","model": "klenoty:korunka"}},
 	  {"when":"koruna_techno",			"model":{"type": "model","model": "klenoty:techno-koruna"}},
+	  {"when":"koruna_king",			"model":{"type": "model","model": "klenoty:koruna_king"}},
+	  {"when":"koruna_queen",			"model":{"type": "model","model": "klenoty:koruna_queen"}},
 							  
 	  {"when":"mec_wooden",				"model":{"type": "model","model": "halloween:halloween-mec-drevenej"}},
 	  {"when":"mec_stone",				"model":{"type": "model","model": "halloween:halloween-mec-stone"}},

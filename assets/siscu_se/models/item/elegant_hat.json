@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/leather_boots",
+  "parent": "minecraft:item/leather_helmet",
   "textures": {
     "layer0": "siscu_se:item/elegant_hat",
     "layer1": "siscu_se:item/elegant_hat_overlay"
