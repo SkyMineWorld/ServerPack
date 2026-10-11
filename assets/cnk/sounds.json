@@ -1,0 +1,532 @@
+{
+  "block.cooking_pot.idling": {
+    "sounds": [
+      {
+        "name": "cnk:cooking_pot/idling",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cooking_pot.idling"
+  },
+  "block.cooking_pot.cooking": {
+    "sounds": [
+      {
+        "name": "cnk:cooking_pot/cooking",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cooking_pot.cooking"
+  },
+  "block.cooking_pot.finished": {
+    "sounds": [
+      {
+        "name": "cnk:cooking_pot/finished",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cooking_pot.finished"
+  },
+  "block.cutting_board.chop": {
+    "sounds": [
+      {
+        "name": "cnk:cutting_board/chop1",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop2",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop3",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop4",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      },
+      {
+        "name": "cnk:cutting_board/chop5",
+        "attenuation_distance": 6,
+        "volume": 0.4
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.cutting_board.chop"
+  },
+  "block.mixing_bowl.stir": {
+    "sounds": [
+      {
+        "name": "cnk:mixing_bowl/stir1",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir2",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir3",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir4",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      },
+      {
+        "name": "cnk:mixing_bowl/stir5",
+        "attenuation_distance": 6,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.mixing_bowl.stir"
+  },
+  "block.faucet.on": {
+    "sounds": [
+      {
+        "name": "cnk:faucet/on",
+        "attenuation_distance": 6,
+        "volume": 0.1
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.faucet.on"
+  },
+  "block.faucet.off": {
+    "sounds": [
+      {
+        "name": "cnk:faucet/off",
+        "attenuation_distance": 6,
+        "volume": 0.1
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.faucet.off"
+  },
+  "block.distiller.distill": {
+    "sounds": [
+      {
+        "name": "cnk:distiller/distill",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.distiller.distill"
+  },
+  "block.distiller.finish": {
+    "sounds": [
+      {
+        "name": "cnk:distiller/finish",
+        "stream": true,
+        "attenuation_distance": 6
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.distiller.finish"
+  },
+  "music_disc.dinner": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/dinner",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.meal": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/meal",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.saute": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/saute",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.scarecrow": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/scarecrow",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.trick": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/trick",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.greetings": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/greetings",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.froggy": {
+    "sounds": [
+      {
+        "name": "cnk:music_disc/froggy",
+        "stream": true
+      }
+    ]
+  },
+  "item.cookbook.section_flip": {
+    "sounds": [
+      {
+        "name": "cnk:cookbook/section_flip",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.item.cookbook.section_flip"
+  },
+  "ambient.shrine.chimes": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/chimes",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.chimes"
+  },
+  "ambient.shrine.meat_1": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/meat_1",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.meat_1"
+  },
+  "ambient.shrine.meat_2": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/meat_2",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.meat_2"
+  },
+  "ambient.shrine.meat_3": {
+    "sounds": [
+      {
+        "name": "cnk:shrine/meat_3",
+        "stream": true,
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.ambient.shrine.meat_3"
+  },
+  "item.mr_kettle.squeak": {
+    "sounds": [
+      {
+        "name": "cnk:mr_kettle/squeak1",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak2",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak3",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak4",
+        "volume": 0.5
+      },
+      {
+        "name": "cnk:mr_kettle/squeak5",
+        "volume": 0.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.item.mr_kettle.squeak"
+  },
+  "block.candy_bowl.laugh": {
+    "sounds": [
+      {
+        "name": "cnk:candy_bowl/laugh",
+        "volume": 1,
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.candy_bowl.laugh"
+  },
+  "entity.booze.idle": {
+    "sounds": [
+      {
+        "name": "cnk:booze/glug1",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/glug2",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/glug3",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/glug4",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/glug5",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/glug6",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/idle1",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/idle2",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/idle3",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/idle4",
+        "volume": 0.6,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/idle5",
+        "volume": 0.6,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.idle"
+  },
+  "item.spirit_sprite.use": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/vex/idle2",
+        "volume": 1,
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.item.spirit_sprite.use"
+  },
+  "item.spirit_sprite.idle": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/vex/idle1",
+        "volume": 1,
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:mob/vex/idle2",
+        "volume": 1,
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:mob/vex/idle3",
+        "volume": 1,
+        "pitch": 1.5
+      },
+      {
+        "name": "minecraft:mob/vex/idle4",
+        "volume": 1,
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.item.spirit_sprite.idle"
+  },
+  "block.wine_rack.spirited": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/illusion_illager/mirror_move1",
+        "volume": 0.5,
+        "pitch": 2
+      }
+    ],
+    "subtitle": "subtitles.cnk.block.wine_rack.spirited"
+  },
+  "entity.booze.teleport": {
+    "sounds": [
+      {
+        "name": "minecraft:mob/illusion_illager/mirror_move1",
+        "volume": 1,
+        "pitch": 1.5
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.teleport"
+  },
+  "entity.booze.hurt": {
+    "sounds": [
+      {
+        "name": "cnk:booze/bottles1",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/bottles2",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/bottles3",
+        "volume": 1,
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.hurt"
+  },
+  "entity.booze.cork.pop": {
+    "sounds": [
+      {
+        "name": "cnk:booze/corkpop1",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "cnk:booze/corkpop2",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "cnk:booze/corkpop3",
+        "volume": 1,
+        "pitch": 0.8
+      },
+      {
+        "name": "cnk:booze/corkpop4",
+        "volume": 1,
+        "pitch": 0.8
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.cork.pop"
+  },
+  "entity.booze.fizz": {
+    "sounds": [
+      {
+        "name": "cnk:booze/fizzing",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/fizzing",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/fizzing",
+        "volume": 1,
+        "pitch": 1.4
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.fizz"
+  },
+  "entity.booze.cork.hit": {
+    "sounds": [
+      {
+        "name": "cnk:booze/corkhit",
+        "volume": 1,
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.cork.hit"
+  },
+  "entity.booze.slosh": {
+    "sounds": [
+      {
+        "name": "cnk:booze/sloshing1",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/sloshing2",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/sloshing3",
+        "volume": 1,
+        "pitch": 1
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.slosh"
+  },
+  "entity.booze.bubble": {
+    "sounds": [
+      {
+        "name": "cnk:booze/angry_bubbling1",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/angry_bubbling2",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/angry_bubbling3",
+        "volume": 1,
+        "pitch": 1.2
+      },
+      {
+        "name": "cnk:booze/angry_bubbling1",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/angry_bubbling2",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/angry_bubbling3",
+        "volume": 1,
+        "pitch": 1
+      },
+      {
+        "name": "cnk:booze/angry_bubbling1",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "cnk:booze/angry_bubbling2",
+        "volume": 1,
+        "pitch": 0.9
+      },
+      {
+        "name": "cnk:booze/angry_bubbling3",
+        "volume": 1,
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.cnk.entity.booze.bubble"
+  }
+}

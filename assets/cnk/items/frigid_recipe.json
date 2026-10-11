@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "firstperson_lefthand",
+          "firstperson_righthand",
+          "fixed"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cnk:item/frigid_recipe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cnk:item/recipe_item"
+    },
+    "property": "minecraft:display_context"
+  }
+}
